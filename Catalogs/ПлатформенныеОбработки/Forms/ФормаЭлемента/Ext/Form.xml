@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<CommandSet>
+		<ExcludedCommand>Delete</ExcludedCommand>
+	</CommandSet>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Наименование" id="1">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="КлючевоеИмя" id="4">
+			<DataPath>1/0:a900aced-b05d-4c43-be87-1e467bb2fa93</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КлючевоеИмяКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="КлючевоеИмяРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ПолныйПуть" id="7">
+			<DataPath>1/0:3f2b0443-42a1-4893-b830-3886fa488fbb</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПолныйПутьКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ПолныйПутьРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Table name="ИменаПодключения" id="10">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ИменаПодключения</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ИменаПодключенияКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="ИменаПодключенияКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="ИменаПодключенияРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="ИменаПодключенияСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>ИменаПодключения</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ИменаПодключенияСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ИменаПодключенияСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ИменаПодключенияСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>ИменаПодключения</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ИменаПодключенияСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ИменаПодключенияСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ИменаПодключенияУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>ИменаПодключения</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ИменаПодключенияУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ИменаПодключенияУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ИменаПодключенияНомерСтроки" id="23">
+					<DataPath>Объект.ИменаПодключения.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИменаПодключенияНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ИменаПодключенияНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="ИменаПодключенияКлючевоеИмя" id="26">
+					<DataPath>Объект.ИменаПодключения.КлючевоеИмя</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИменаПодключенияКлючевоеИмяКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ИменаПодключенияКлючевоеИмяРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ИменаПодключенияПолныйПуть" id="29">
+					<DataPath>Объект.ИменаПодключения.ПолныйПуть</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИменаПодключенияПолныйПутьКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ИменаПодключенияПолныйПутьРасширеннаяПодсказка" id="31"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ПлатформенныеОбработки</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

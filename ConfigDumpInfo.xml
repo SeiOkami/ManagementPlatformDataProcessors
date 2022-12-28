@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.16">
+	<ConfigVersions>
+		<Metadata name="Catalog.ВерсииПлатформенныхОбработок" id="b714f784-2c1e-406a-be92-33dd6937d6ec" configVersion="bfb20e07a73ba6c70e32e924ea193d58c534d625">
+			<Metadata name="Catalog.ВерсииПлатформенныхОбработок.Attribute.Комментарий" id="05a0dc8e-a260-4780-96c0-e9b12c66f01a"/>
+			<Metadata name="Catalog.ВерсииПлатформенныхОбработок.Attribute.ВерсияПриложения" id="26601b31-d80e-4435-a2ec-b19d2f3f9518"/>
+			<Metadata name="Catalog.ВерсииПлатформенныхОбработок.Attribute.КлючевоеИмя" id="7ec7d016-9f2e-4304-8046-23e7ebbed044"/>
+			<Metadata name="Catalog.ВерсииПлатформенныхОбработок.Attribute.ДанныеВерсии" id="7f5d6f81-562d-45d4-bc68-f1b8d12e45e9"/>
+		</Metadata>
+		<Metadata name="Catalog.ВерсииПлатформенныхОбработок.Form.ФормаСписка" id="f06ce196-7fcb-43fa-8e7c-eb02c169ecfc" configVersion="02086ee71d5a0b75f05eefa429cce9b1b226eadd"/>
+		<Metadata name="Catalog.ВерсииПлатформенныхОбработок.Form.ФормаСписка.Form" id="f06ce196-7fcb-43fa-8e7c-eb02c169ecfc.0" configVersion="915ccc2ae20309126ef2c7fa8776fc3442e6c0d4"/>
+		<Metadata name="Catalog.ВерсииПлатформенныхОбработок.Form.ФормаЭлемента" id="37c2be72-f9ec-4dea-9e52-3b605b8dc7e7" configVersion="a73f490526703a557577a77030a76d977660edc5"/>
+		<Metadata name="Catalog.ВерсииПлатформенныхОбработок.Form.ФормаЭлемента.Form" id="37c2be72-f9ec-4dea-9e52-3b605b8dc7e7.0" configVersion="14821e45509f2d640ce9084a5f5110781f601f11"/>
+		<Metadata name="Catalog.ВерсииПлатформенныхОбработок.ObjectModule" id="b714f784-2c1e-406a-be92-33dd6937d6ec.0" configVersion="551defeee8e3878e0ab3b1d5f97ef8117a51225d"/>
+		<Metadata name="Catalog.ПлатформенныеОбработки" id="5ed94a17-f2e1-4933-94a2-92dba12d8ecd" configVersion="ad6422ff449c6de4c3af3d8d6b288968832e9887">
+			<Metadata name="Catalog.ПлатформенныеОбработки.TabularSection.ИменаПодключения.Attribute.ПолныйПуть" id="2d72a5b5-6480-4aa3-9eea-6d80bb768ca4"/>
+			<Metadata name="Catalog.ПлатформенныеОбработки.TabularSection.ИменаПодключения" id="4c82cb0c-86ce-45b1-9de5-c954315781ff"/>
+			<Metadata name="Catalog.ПлатформенныеОбработки.TabularSection.ИменаПодключения.Attribute.КлючевоеИмя" id="caa7ede2-9d92-476e-8ff0-2b5c677e3286"/>
+			<Metadata name="Catalog.ПлатформенныеОбработки.Attribute.ПредопределенныйЭлемент" id="f515a9e6-576e-4c02-baa0-c65731a4bd1c"/>
+		</Metadata>
+		<Metadata name="Catalog.ПлатформенныеОбработки.Form.ФормаСписка" id="e24c21b9-3087-4930-ab0b-9f2e03410ce5" configVersion="59c6ecfb84a8962ab9d69ed585f5ce2b57e41cf1"/>
+		<Metadata name="Catalog.ПлатформенныеОбработки.Form.ФормаСписка.Form" id="e24c21b9-3087-4930-ab0b-9f2e03410ce5.0" configVersion="1099703135b3ca6d95161873ba697a6db392074a"/>
+		<Metadata name="Catalog.ПлатформенныеОбработки.Form.ФормаЭлемента" id="5285f9db-d053-4e1d-a2e1-dc951f549724" configVersion="270b1da715f138b7d3e98025519b5e4f89e4c9d5"/>
+		<Metadata name="Catalog.ПлатформенныеОбработки.Form.ФормаЭлемента.Form" id="5285f9db-d053-4e1d-a2e1-dc951f549724.0" configVersion="bee7bacaba902390aa6fb1852d02696d2e169a42"/>
+		<Metadata name="Catalog.ПлатформенныеОбработки.ManagerModule" id="5ed94a17-f2e1-4933-94a2-92dba12d8ecd.3" configVersion="b3bb4fa63f563ca80062a47a9ae46526f3c27aea"/>
+		<Metadata name="Catalog.ПлатформенныеОбработки.ObjectModule" id="5ed94a17-f2e1-4933-94a2-92dba12d8ecd.0" configVersion="9a818ce5aa453e5df248113ab48edb08f5de204c"/>
+		<Metadata name="Catalog.ПлатформенныеОбработки.Template.ПредопределенныеДанные" id="cb598c9f-7732-43e7-b5ce-7dc36ee08b47" configVersion="b7e6e9a2b42aacdcb314825952f064dbb5e646a9"/>
+		<Metadata name="Catalog.ПлатформенныеОбработки.Template.ПредопределенныеДанные.Template" id="cb598c9f-7732-43e7-b5ce-7dc36ee08b47.0" configVersion="c09f3e0d0331444e9b938e38529db336a06072b4"/>
+		<Metadata name="Catalog.Пользователи" id="79085ca2-0a18-41f2-afd9-1b926817c903" configVersion="f89505651009a758026370546cae1fb6f8b3fcbd"/>
+		<Metadata name="CommandGroup.ЗагрузитьВыгрузитьВерсиюПлатформеннойОбработки" id="183de47f-2476-496c-a830-dde1ab98203e" configVersion="52f2c37a9376c1182f0a5871e4ed1884e54102cb"/>
+		<Metadata name="CommandGroup.ОбновлениеДанныхПодсистемыПлатформенныхОбработок" id="af3454e7-2df6-45b7-bfa1-41e7236d590d" configVersion="fdf069fc05c984a286aa479dac32d979c1f5091d"/>
+		<Metadata name="CommandGroup.ПодключитьВерсиюПлатформеннойОбработки" id="137d3176-50c5-4ecf-bd28-579f8794d584" configVersion="6e218791075832a2086e19def88952f537dbe649"/>
+		<Metadata name="CommonCommand.ВыгрузитьВерсиюПлатформеннойОбработки" id="a35cc0fd-c6c8-45b7-a1d6-19a7c32341bd" configVersion="e6d0db83b0209b910dd4bd875c41853f0690694c"/>
+		<Metadata name="CommonCommand.ВыгрузитьВерсиюПлатформеннойОбработки.CommandModule" id="a35cc0fd-c6c8-45b7-a1d6-19a7c32341bd.2" configVersion="f972126bed01e79d0dcd2c100283c80277bdf218"/>
+		<Metadata name="CommonCommand.ЗагрузитьВерсиюПлатформеннойОбработки" id="59df2df8-a733-4cf2-a3ad-4311cb9d1c81" configVersion="9b8947c3b364b30c371cc9e0cbe19d7021a5abc8"/>
+		<Metadata name="CommonCommand.ЗагрузитьВерсиюПлатформеннойОбработки.CommandModule" id="59df2df8-a733-4cf2-a3ad-4311cb9d1c81.2" configVersion="65495431413284bf27e0b8367c87c73303d532b6"/>
+		<Metadata name="CommonCommand.ЗапуститьВерсиюПлатформеннойОбработки" id="245209e9-3e48-4f5f-87c5-c980bcd03948" configVersion="5c6019c8479b4a9be1631ccc43dc1411d0b37cd5"/>
+		<Metadata name="CommonCommand.ЗапуститьВерсиюПлатформеннойОбработки.CommandModule" id="245209e9-3e48-4f5f-87c5-c980bcd03948.2" configVersion="0d6ea19e3eb6ac82fbeab9dcef53291c334ab535"/>
+		<Metadata name="CommonCommand.ОбновитьВерсииПлатформенныхОбработок" id="3ce00ca1-549d-4daa-8774-19c0d078e69d" configVersion="3fc9cff4ed2075f5bf21c14857dc147323437bf7"/>
+		<Metadata name="CommonCommand.ОбновитьВерсииПлатформенныхОбработок.CommandModule" id="3ce00ca1-549d-4daa-8774-19c0d078e69d.2" configVersion="29f34fcdebbaf11466e21658661336f8dff79811"/>
+		<Metadata name="CommonCommand.ПодключитьВерсиюПлатформеннойОбработки" id="bf8bb045-4167-4add-a876-09c52d995a36" configVersion="25db3804f15349e2eef07aa0ddd40b38a616cfaa"/>
+		<Metadata name="CommonCommand.ПодключитьВерсиюПлатформеннойОбработки.CommandModule" id="bf8bb045-4167-4add-a876-09c52d995a36.2" configVersion="8b4a703fa58e799bcb7b3a616640953ea0b039cc"/>
+		<Metadata name="CommonCommand.УдалитьВсеДанныеПлатформенныхОбработок" id="88afceb1-54c4-422f-ae43-f96bcb2ff730" configVersion="4592f2b1555cf1c5d73d67ce848eebbb5da6aad9"/>
+		<Metadata name="CommonCommand.УдалитьВсеДанныеПлатформенныхОбработок.CommandModule" id="88afceb1-54c4-422f-ae43-f96bcb2ff730.2" configVersion="b4120a33826ce4f93cfcfce7aee678297cc728a2"/>
+		<Metadata name="CommonCommand.УстановитьОбщейПодменяемойВерсиейОбработки" id="8b968ec4-6b29-4616-9608-d602a62e9464" configVersion="0076da7e05cdcdde7d7219b349d9c1fc2542d8e0"/>
+		<Metadata name="CommonCommand.УстановитьОбщейПодменяемойВерсиейОбработки.CommandModule" id="8b968ec4-6b29-4616-9608-d602a62e9464.2" configVersion="e574ba5cc601f7bc567ec4d47bf6013fe4aeb693"/>
+		<Metadata name="CommonCommand.УстановитьПодменяемойВерсиейДляТекущегоПользователя" id="5fbdb272-598f-4430-92d7-e10bcb3bb766" configVersion="34949c53e694892417cdf627d7d70739ba779867"/>
+		<Metadata name="CommonCommand.УстановитьПодменяемойВерсиейДляТекущегоПользователя.CommandModule" id="5fbdb272-598f-4430-92d7-e10bcb3bb766.2" configVersion="c0a019a7b5bf7d54f8861da8706de24dc7162053"/>
+		<Metadata name="CommonModule.УправлениеПлатформеннымиОбработками" id="23a1a87c-eb7d-457d-87c4-ad97d997add5" configVersion="6e82bcccad5c89376d0feb43eb593eebb43ee9c0"/>
+		<Metadata name="CommonModule.УправлениеПлатформеннымиОбработками.Module" id="23a1a87c-eb7d-457d-87c4-ad97d997add5.0" configVersion="0f1a1d9caac36fa4ce1e636e5304e7695e0746f7"/>
+		<Metadata name="CommonModule.УправлениеПлатформеннымиОбработкамиВызовСервера" id="40676fa6-7f1a-436c-abe9-465de6d8348b" configVersion="97c53be517e229f38d57b09a598c4be06b921358"/>
+		<Metadata name="CommonModule.УправлениеПлатформеннымиОбработкамиВызовСервера.Module" id="40676fa6-7f1a-436c-abe9-465de6d8348b.0" configVersion="74c3dcbd78b86f8f2422c5c75495cd840f59d5a4"/>
+		<Metadata name="CommonModule.УправлениеПлатформеннымиОбработкамиКлиент" id="be28fcad-ba75-47a6-98f7-e76fa8728c48" configVersion="60b7825830945be92b803679732eb2536f326598"/>
+		<Metadata name="CommonModule.УправлениеПлатформеннымиОбработкамиКлиент.Module" id="be28fcad-ba75-47a6-98f7-e76fa8728c48.0" configVersion="d86b33cb5a7146b686c043d3cf209437b1ba8bd3"/>
+		<Metadata name="CommonModule.УправлениеПлатформеннымиОбработкамиКлиентСервер" id="bb9e3d57-f100-4db7-8d30-e77406b31988" configVersion="91248d17f39a69be69417edb09881990777680d6"/>
+		<Metadata name="CommonModule.УправлениеПлатформеннымиОбработкамиКлиентСервер.Module" id="bb9e3d57-f100-4db7-8d30-e77406b31988.0" configVersion="9a37dea544f8fe95eab331dde4407505ce30650b"/>
+		<Metadata name="Configuration.УправлениеПлатформеннымиОбработками" id="92a0a19a-f306-402b-acd8-74d0b4f51f76" configVersion="f797bf1deecaae37c93dd483d260f83960008834"/>
+		<Metadata name="Configuration.УправлениеПлатформеннымиОбработками.ManagedApplicationModule" id="b1c38992-194b-4b5a-98ae-df26f3661ef3.6" configVersion="faf900bc544eb23d3384966aef9d4e3c37512762"/>
+		<Metadata name="Configuration.УправлениеПлатформеннымиОбработками.SessionModule" id="b1c38992-194b-4b5a-98ae-df26f3661ef3.7" configVersion="39ed8e659c5c4b08702f3b4663b7605a4f559239"/>
+		<Metadata name="InformationRegister.ОбновленныеВерсииПриложения" id="5806c943-1214-4500-b7e0-3810cca1c292" configVersion="f06f7eb77fa2cb3a48d695159528034d2be02869">
+			<Metadata name="InformationRegister.ОбновленныеВерсииПриложения.Resource.ДатаОбновления" id="a62a4d25-0e33-451b-8549-a4134dc25e70"/>
+			<Metadata name="InformationRegister.ОбновленныеВерсииПриложения.Dimension.ВерсияПриложения" id="fadacff0-ee63-4303-aab7-82c514d2da9d"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ПодменаПлатформенныхОбработок" id="1bcaf048-862e-427a-9be4-6e24b2dd14cc" configVersion="671d677592453d50c3544375c406f6fbd37fd5f6">
+			<Metadata name="InformationRegister.ПодменаПлатформенныхОбработок.Resource.ВерсияОбработки" id="029262e1-a86f-4e3a-8899-820969235be4"/>
+			<Metadata name="InformationRegister.ПодменаПлатформенныхОбработок.Dimension.Обработка" id="4601500a-b529-4856-a3b4-33bd5590f3de"/>
+			<Metadata name="InformationRegister.ПодменаПлатформенныхОбработок.Dimension.Владелец" id="625ff2df-be9f-4b8a-be11-2deaf1cd2f11"/>
+			<Metadata name="InformationRegister.ПодменаПлатформенныхОбработок.Resource.Использование" id="baf007fd-0217-417a-abdf-efd030d407c1"/>
+			<Metadata name="InformationRegister.ПодменаПлатформенныхОбработок.Attribute.Комментарий" id="e1b8e364-21b5-4944-8295-ddf8cbe012d0"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ПодменаПлатформенныхОбработок.Form.ФормаЗаписи" id="7fe92786-1e8c-45af-80ad-a5693d397dcc" configVersion="3c9e64294e668a0f36b6ba3812cfa8438406917e"/>
+		<Metadata name="InformationRegister.ПодменаПлатформенныхОбработок.Form.ФормаЗаписи.Form" id="7fe92786-1e8c-45af-80ad-a5693d397dcc.0" configVersion="47188124a87d0218df4119cc88e913eba0285fd6"/>
+		<Metadata name="InformationRegister.ПодменаПлатформенныхОбработок.Form.ФормаСписка" id="c240b02f-7b5f-4752-a14b-f3cc7c2c25d0" configVersion="8f3a69ea2559201b0f0b4835a19cfd9cc6720118"/>
+		<Metadata name="InformationRegister.ПодменаПлатформенныхОбработок.Form.ФормаСписка.Form" id="c240b02f-7b5f-4752-a14b-f3cc7c2c25d0.0" configVersion="92aa41ce8790b09894ea5f0d47bb289054feb194"/>
+		<Metadata name="Language.Русский" id="615a0715-71b9-4a6b-96e0-690ca817babe" configVersion="f4de8a25a95380be3a93a6db9c8f4d6af08d0eb4"/>
+		<Metadata name="Role.АдминистраторПлатформенныхОбработок" id="a8c5868f-3133-40b4-82f2-5ad24f58d97b" configVersion="a08f1509fec651e5d7b37deafcb67b7163536e3d"/>
+		<Metadata name="Role.АдминистраторПлатформенныхОбработок.Rights" id="a8c5868f-3133-40b4-82f2-5ad24f58d97b.0" configVersion="fe59adfe1bf4ad2b41bab169d8c4068eb34591d1"/>
+		<Metadata name="Role.ЧтениеПлатформенныхОбработок" id="f19885f6-b256-41ef-89e3-bb309608712b" configVersion="7f8707a22a8cad0667441ca16604a86af5429fab"/>
+		<Metadata name="Role.ЧтениеПлатформенныхОбработок.Rights" id="f19885f6-b256-41ef-89e3-bb309608712b.0" configVersion="7e7e64fee580ce9c0055b603c28afe42100a1d64"/>
+		<Metadata name="Subsystem.УправлениеПлатфомреннымиОбработками" id="bbf9229a-0c03-47f4-898f-2f6eecc0772c" configVersion="f0c0108c7951ca10fe0c7e4cc7a96de46aec0b42"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
