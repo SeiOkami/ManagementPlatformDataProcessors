@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf8bb045-4167-4add-a876-09c52d995a36">
+  <name>ПодключитьВерсиюПлатформеннойОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключить для текущего сеанса</value>
+  </synonym>
+  <group>CommandGroup.ПодключитьВерсиюПлатформеннойОбработки</group>
+  <commandParameterType>
+    <types>CatalogRef.ВерсииПлатформенныхОбработок</types>
+  </commandParameterType>
+  <representation>PictureAndText</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Подключить выбранную версию платформенной обработки в текущем сеансе</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.AppearanceCheckBox</picture>
+  </picture>
+</mdclass:CommonCommand>

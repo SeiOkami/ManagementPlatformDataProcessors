@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="92a0a19a-f306-402b-acd8-74d0b4f51f76">
+  <name>УправлениеПлатформеннымиОбработками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление платформенными обработками</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <sessionModule>Extended</sessionModule>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b1c38992-194b-4b5a-98ae-df26f3661ef3"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="07118dde-687d-4f42-9a07-c77271698390"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f4d3036d-ee89-4fcf-82a8-2958eee53a38"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0bdc1bf1-2050-4c8d-9af6-792117a1fd7f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="d91828e4-5088-4800-b34b-148e97e48362"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="fff6e631-670a-4d3d-928d-0dc968617392"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c5c1b47d-9e8f-4f28-9406-e1ed06a62df4"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>УПО_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ЧтениеПлатформенныхОбработок</defaultRoles>
+  <vendor>https://github.com/SeiOkami</vendor>
+  <version>1.4.1</version>
+  <copyright>
+    <key>ru</key>
+    <value>Черненко Виталий Вячеславович SeiOkami@yandex.ru</value>
+  </copyright>
+  <languages uuid="615a0715-71b9-4a6b-96e0-690ca817babe">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension"/>
+  </languages>
+  <subsystems>Subsystem.УправлениеПлатфомреннымиОбработками</subsystems>
+  <roles>Role.ЧтениеПлатформенныхОбработок</roles>
+  <roles>Role.АдминистраторПлатформенныхОбработок</roles>
+  <commonModules>CommonModule.УправлениеПлатформеннымиОбработками</commonModules>
+  <commonModules>CommonModule.УправлениеПлатформеннымиОбработкамиВызовСервера</commonModules>
+  <commonModules>CommonModule.УправлениеПлатформеннымиОбработкамиКлиент</commonModules>
+  <commonModules>CommonModule.УправлениеПлатформеннымиОбработкамиКлиентСервер</commonModules>
+  <commonCommands>CommonCommand.ОбновитьВерсииПлатформенныхОбработок</commonCommands>
+  <commonCommands>CommonCommand.УдалитьВсеДанныеПлатформенныхОбработок</commonCommands>
+  <commonCommands>CommonCommand.ЗапуститьВерсиюПлатформеннойОбработки</commonCommands>
+  <commonCommands>CommonCommand.ПодключитьВерсиюПлатформеннойОбработки</commonCommands>
+  <commonCommands>CommonCommand.ВыгрузитьВерсиюПлатформеннойОбработки</commonCommands>
+  <commonCommands>CommonCommand.ЗагрузитьВерсиюПлатформеннойОбработки</commonCommands>
+  <commonCommands>CommonCommand.УстановитьОбщейПодменяемойВерсиейОбработки</commonCommands>
+  <commonCommands>CommonCommand.УстановитьПодменяемойВерсиейДляТекущегоПользователя</commonCommands>
+  <commandGroups>CommandGroup.ПодключитьВерсиюПлатформеннойОбработки</commandGroups>
+  <commandGroups>CommandGroup.ЗагрузитьВыгрузитьВерсиюПлатформеннойОбработки</commandGroups>
+  <commandGroups>CommandGroup.ОбновлениеДанныхПодсистемыПлатформенныхОбработок</commandGroups>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПлатформенныеОбработки</catalogs>
+  <catalogs>Catalog.ВерсииПлатформенныхОбработок</catalogs>
+  <informationRegisters>InformationRegister.ПодменаПлатформенныхОбработок</informationRegisters>
+  <informationRegisters>InformationRegister.ОбновленныеВерсииПриложения</informationRegisters>
+</mdclass:Configuration>

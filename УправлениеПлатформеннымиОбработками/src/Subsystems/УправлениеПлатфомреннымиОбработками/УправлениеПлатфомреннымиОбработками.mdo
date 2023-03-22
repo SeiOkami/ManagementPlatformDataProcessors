@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbf9229a-0c03-47f4-898f-2f6eecc0772c">
+  <name>УправлениеПлатфомреннымиОбработками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление платфомренными обработками</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.ПодменаПлатформенныхОбработок</content>
+  <content>Catalog.ПлатформенныеОбработки</content>
+  <content>Catalog.ВерсииПлатформенныхОбработок</content>
+  <content>CommonModule.УправлениеПлатформеннымиОбработками</content>
+  <content>CommonModule.УправлениеПлатформеннымиОбработкамиВызовСервера</content>
+  <content>CommonModule.УправлениеПлатформеннымиОбработкамиКлиент</content>
+  <content>CommonCommand.ОбновитьВерсииПлатформенныхОбработок</content>
+  <content>CommonModule.УправлениеПлатформеннымиОбработкамиКлиентСервер</content>
+  <content>CommonCommand.УдалитьВсеДанныеПлатформенныхОбработок</content>
+  <content>CommonCommand.ЗапуститьВерсиюПлатформеннойОбработки</content>
+  <content>CommonCommand.ПодключитьВерсиюПлатформеннойОбработки</content>
+  <content>CommonCommand.ВыгрузитьВерсиюПлатформеннойОбработки</content>
+  <content>Role.ЧтениеПлатформенныхОбработок</content>
+  <content>CommonCommand.ЗагрузитьВерсиюПлатформеннойОбработки</content>
+  <content>CommonCommand.УстановитьОбщейПодменяемойВерсиейОбработки</content>
+  <content>CommonCommand.УстановитьПодменяемойВерсиейДляТекущегоПользователя</content>
+  <content>CommandGroup.ПодключитьВерсиюПлатформеннойОбработки</content>
+  <content>CommandGroup.ЗагрузитьВыгрузитьВерсиюПлатформеннойОбработки</content>
+  <content>CommandGroup.ОбновлениеДанныхПодсистемыПлатформенныхОбработок</content>
+</mdclass:Subsystem>

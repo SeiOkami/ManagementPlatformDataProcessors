@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppress:SuppressGenericObject xmlns:suppress="http://g5.1c.ru/v8/dt/check/suppress/model" fqn="Role.АдминистраторПлатформенныхОбработок.Rights">
+  <suppressions key="com.e1c.v8codestyle.right:right-interactive-delete" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-delete" value="true"/>
+</suppress:SuppressGenericObject>

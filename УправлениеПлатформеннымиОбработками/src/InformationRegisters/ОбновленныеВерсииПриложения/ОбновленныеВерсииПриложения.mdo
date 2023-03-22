@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5806c943-1214-4500-b7e0-3810cca1c292">
+  <producedTypes>
+    <selectionType typeId="27b3c405-eb40-45b9-8a21-4a5d24b2c4f1" valueTypeId="a5f50b9b-1fcb-4ca7-8632-11c90321d15e"/>
+    <listType typeId="37d05aec-8c52-416e-9a83-f0259cb317e5" valueTypeId="0064533e-1ffb-4d3e-ba1e-deb744f5ffcd"/>
+    <managerType typeId="598e3a93-953b-48a5-9dc3-45592ece9077" valueTypeId="82dbab19-4e0d-4640-bb4f-d28115260329"/>
+    <recordSetType typeId="5d42f2ee-53e6-4f1c-8056-58b9435797ad" valueTypeId="e594676c-4949-4828-a683-79cbf29834b1"/>
+    <recordKeyType typeId="5377d870-f39f-4c36-8958-a6c8fa5e4f7b" valueTypeId="ca4512d9-181a-450e-8c63-d08b15cba8a5"/>
+    <recordType typeId="887284dc-5226-48d0-82a1-471f0e04a791" valueTypeId="ddfd8eed-a95a-4377-b552-e81b3bf6f771"/>
+    <recordManagerType typeId="7a3bd97b-f52e-4bbb-b4ba-49f26eb608cc" valueTypeId="f273dbc2-a1f6-4f6e-bceb-7449e2ab0814"/>
+  </producedTypes>
+  <name>ОбновленныеВерсииПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновленные версии приложения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Обновленная версия приложения</value>
+  </recordPresentation>
+  <resources uuid="a62a4d25-0e33-451b-8549-a4134dc25e70">
+    <name>ДатаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fadacff0-ee63-4303-aab7-82c514d2da9d">
+    <name>ВерсияПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия приложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

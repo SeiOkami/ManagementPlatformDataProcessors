@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ed94a17-f2e1-4933-94a2-92dba12d8ecd">
+  <producedTypes>
+    <objectType typeId="462a5d83-2af4-4d40-8c48-e0b46d2b9389" valueTypeId="74607668-d866-4c5e-be20-bacceb8fbae1"/>
+    <refType typeId="21a1c7e7-0527-4a89-b873-001d0a1b48a6" valueTypeId="58244742-7dda-46c6-a790-6a299e250613"/>
+    <selectionType typeId="76938499-8cf5-4b4a-b2d4-9067829e43c0" valueTypeId="826e989f-48a5-4469-95ed-ad2f0b7726f1"/>
+    <listType typeId="d61e8497-0080-40b5-9236-f4ece343068d" valueTypeId="d1b96521-d747-49bd-8511-3fb736cbf2fa"/>
+    <managerType typeId="50c76b79-d8df-414a-a592-d37c26c1dd46" valueTypeId="c6be9611-fb16-4e14-b388-f13cca65cd82"/>
+  </producedTypes>
+  <name>ПлатформенныеОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платформенные обработки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПлатформенныеОбработки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Платформенная обработка</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПлатформенныеОбработки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПлатформенныеОбработки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ПлатформенныеОбработки.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="f515a9e6-576e-4c02-baa0-c65731a4bd1c">
+    <name>ПредопределенныйЭлемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенный элемент</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="4c82cb0c-86ce-45b1-9de5-c954315781ff">
+    <producedTypes>
+      <objectType typeId="3228c164-b212-457a-b9ff-ee51ee171086" valueTypeId="ea780b9a-50da-4e4a-bcb2-d69591991a8d"/>
+      <rowType typeId="fd71c1f1-9d05-4576-be24-1302eb13f592" valueTypeId="11408209-a718-4128-a516-2d40f53a9a9a"/>
+    </producedTypes>
+    <name>ИменаПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имена подключения</value>
+    </synonym>
+    <attributes uuid="caa7ede2-9d92-476e-8ff0-2b5c677e3286">
+      <name>КлючевоеИмя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключевое имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2d72a5b5-6480-4aa3-9eea-6d80bb768ca4">
+      <name>ПолныйПуть</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полный путь</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5285f9db-d053-4e1d-a2e1-dc951f549724">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e24c21b9-3087-4930-ab0b-9f2e03410ce5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="cb598c9f-7732-43e7-b5ce-7dc36ee08b47">
+    <name>ПредопределенныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные данные</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

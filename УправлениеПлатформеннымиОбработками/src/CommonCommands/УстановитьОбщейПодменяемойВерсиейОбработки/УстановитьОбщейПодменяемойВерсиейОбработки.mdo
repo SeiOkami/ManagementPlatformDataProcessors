@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b968ec4-6b29-4616-9608-d602a62e9464">
+  <name>УстановитьОбщейПодменяемойВерсиейОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить подменяемой (для всех)</value>
+  </synonym>
+  <group>CommandGroup.ПодключитьВерсиюПлатформеннойОбработки</group>
+  <commandParameterType>
+    <types>CatalogRef.ВерсииПлатформенныхОбработок</types>
+  </commandParameterType>
+  <representation>PictureAndText</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Установить версию обработки как подменяемую как общее правило для пользователей</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.GroupConversation</picture>
+  </picture>
+</mdclass:CommonCommand>
