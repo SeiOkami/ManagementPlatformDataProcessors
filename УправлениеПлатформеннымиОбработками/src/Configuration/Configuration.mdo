@@ -7,8 +7,6 @@
   </synonym>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
-    <managedApplicationModule>Extended</managedApplicationModule>
-    <sessionModule>Extended</sessionModule>
     <defaultRoles>Extended</defaultRoles>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b1c38992-194b-4b5a-98ae-df26f3661ef3"/>
@@ -30,11 +28,6 @@
     <key>ru</key>
     <value>Черненко Виталий Вячеславович SeiOkami@yandex.ru</value>
   </copyright>
-  <languages uuid="615a0715-71b9-4a6b-96e0-690ca817babe">
-    <name>Русский</name>
-    <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:LanguageExtension"/>
-  </languages>
   <subsystems>Subsystem.УправлениеПлатфомреннымиОбработками</subsystems>
   <roles>Role.ЧтениеПлатформенныхОбработок</roles>
   <roles>Role.АдминистраторПлатформенныхОбработок</roles>
@@ -53,7 +46,6 @@
   <commandGroups>CommandGroup.ПодключитьВерсиюПлатформеннойОбработки</commandGroups>
   <commandGroups>CommandGroup.ЗагрузитьВыгрузитьВерсиюПлатформеннойОбработки</commandGroups>
   <commandGroups>CommandGroup.ОбновлениеДанныхПодсистемыПлатформенныхОбработок</commandGroups>
-  <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПлатформенныеОбработки</catalogs>
   <catalogs>Catalog.ВерсииПлатформенныхОбработок</catalogs>
   <informationRegisters>InformationRegister.ПодменаПлатформенныхОбработок</informationRegisters>

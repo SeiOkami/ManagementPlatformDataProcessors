@@ -81,10 +81,10 @@
     <name>Владелец</name>
     <synonym>
       <key>ru</key>
-      <value>Пользователь</value>
+      <value>Идентификатор пользователя ИБ</value>
     </synonym>
     <type>
-      <types>CatalogRef.Пользователи</types>
+      <types>UUID</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -128,6 +128,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a30349b6-b0ac-46fa-8227-1a468312c9fe">
+    <name>ФормаВыбораПользователяИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора пользователя ИБ</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
