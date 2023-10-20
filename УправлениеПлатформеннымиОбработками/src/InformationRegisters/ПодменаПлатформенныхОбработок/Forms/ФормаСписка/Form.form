@@ -52,7 +52,7 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ПредставлениеПользователя</name>
+      <name>Владелец</name>
       <id>35</id>
       <title>
         <key>ru</key>
@@ -64,10 +64,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ПредставлениеПользователя</segments>
+        <segments>Список.Владелец</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПредставлениеПользователяРасширеннаяПодсказка</name>
+        <name>ВладелецРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -82,63 +82,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПредставлениеПользователяКонтекстноеМеню</name>
-        <id>36</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>Владелец</name>
-      <id>16</id>
-      <title>
-        <key>ru</key>
-        <value>Идентификатор пользователя</value>
-      </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Владелец</segments>
-      </dataPath>
-      <defaultItem>true</defaultItem>
-      <extendedTooltip>
-        <name>ВладелецРасширеннаяПодсказка</name>
-        <id>18</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
         <name>ВладелецКонтекстноеМеню</name>
-        <id>17</id>
+        <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -630,8 +575,7 @@
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ 
-	*,
-	ВЫРАЗИТЬ(&quot;&quot; КАК СТРОКА(150)) КАК ПредставлениеПользователя
+	*
 ИЗ 
 	РегистрСведений.ПодменаПлатформенныхОбработок КАК РС</queryText>
       <mainTable>InformationRegister.ПодменаПлатформенныхОбработок</mainTable>

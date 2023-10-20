@@ -1084,6 +1084,10 @@
             <items xsi:type="form:FormField">
               <name>СписокПодменыВладелец</name>
               <id>95</id>
+              <title>
+                <key>ru</key>
+                <value>Пользователь</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1486,6 +1490,10 @@
             </rowPictureDataPath>
             <searchStringLocation>None</searchStringLocation>
             <extInfo xsi:type="form:DynamicListTableExtInfo">
+              <handlers>
+                <event>OnGetDataAtServer</event>
+                <name>СписокПодменыПриПолученииДанныхНаСервере</name>
+              </handlers>
               <autoRefreshPeriod>60</autoRefreshPeriod>
               <period>
                 <startDate>0001-01-01T00:00:00</startDate>
