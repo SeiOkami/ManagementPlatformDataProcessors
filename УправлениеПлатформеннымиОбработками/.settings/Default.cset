@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "settings": {
+    "extension-md-object-prefix": {
+      "enabled": false
+    }
+  }
+}
