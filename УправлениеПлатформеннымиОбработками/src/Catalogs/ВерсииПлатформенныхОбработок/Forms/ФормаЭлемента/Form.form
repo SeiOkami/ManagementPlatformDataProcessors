@@ -321,6 +321,10 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
+  </handlers>
   <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>SetDeletionMark</excludedCommands>
