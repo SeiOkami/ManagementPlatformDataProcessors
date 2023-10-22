@@ -48,6 +48,7 @@
   <commandGroups>CommandGroup.ОбновлениеДанныхПодсистемыПлатформенныхОбработок</commandGroups>
   <catalogs>Catalog.ПлатформенныеОбработки</catalogs>
   <catalogs>Catalog.ВерсииПлатформенныхОбработок</catalogs>
+  <dataProcessors>DataProcessor.ВыгрузкаПлатформенныхОбработок</dataProcessors>
   <informationRegisters>InformationRegister.ПодменаПлатформенныхОбработок</informationRegisters>
   <informationRegisters>InformationRegister.ОбновленныеВерсииПриложения</informationRegisters>
 </mdclass:Configuration>
