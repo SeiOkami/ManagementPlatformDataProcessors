@@ -1768,9 +1768,7 @@
       <queryText>ВЫБРАТЬ
 	*
 ИЗ
-	РегистрСведений.ПодменаПлатформенныхОбработок
-ГДЕ
-	Обработка = &amp;Обработка</queryText>
+	РегистрСведений.ПодменаПлатформенныхОбработок</queryText>
       <mainTable>InformationRegister.ПодменаПлатформенныхОбработок</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
