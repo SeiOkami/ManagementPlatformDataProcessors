@@ -111,11 +111,4 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="cb598c9f-7732-43e7-b5ce-7dc36ee08b47">
-    <name>ПредопределенныеДанные</name>
-    <synonym>
-      <key>ru</key>
-      <value>Предопределенные данные</value>
-    </synonym>
-  </templates>
 </mdclass:Catalog>
