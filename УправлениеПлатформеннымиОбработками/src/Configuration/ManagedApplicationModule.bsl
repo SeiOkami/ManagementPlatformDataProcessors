@@ -1,4 +1,6 @@
 
+#Область ОбработчикиСобытий
+
 //@skip-check not-allowed-pragma
 //@skip-check module-structure-method-in-regions
 //@skip-check not-use-annotation-form-event-handlers
@@ -8,3 +10,5 @@
     УправлениеПлатформеннымиОбработкамиКлиент.ПередНачаломРаботыСистемы();
 	
 КонецПроцедуры
+
+#КонецОбласти
