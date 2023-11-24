@@ -28,6 +28,24 @@
     <key>ru</key>
     <value>Черненко Виталий Вячеславович SeiOkami@yandex.ru</value>
   </copyright>
+  <languages uuid="53f79832-db8e-454f-b701-1fd696ec9ac3" extendedConfigurationObject="f463396b-e1a8-4586-8d64-df5abc908f41">
+    <name>English</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>en</languageCode>
+  </languages>
+  <languages uuid="ff257593-8b7d-4b42-809d-acf5bb848c91" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
   <subsystems>Subsystem.УправлениеПлатфомреннымиОбработками</subsystems>
   <roles>Role.ЧтениеПлатформенныхОбработок</roles>
   <roles>Role.АдминистраторПлатформенныхОбработок</roles>
