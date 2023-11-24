@@ -2,6 +2,10 @@
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be28fcad-ba75-47a6-98f7-e76fa8728c48">
   <name>УправлениеПлатформеннымиОбработкамиКлиент</name>
   <synonym>
+    <key>en</key>
+    <value>Management platform data processors client</value>
+  </synonym>
+  <synonym>
     <key>ru</key>
     <value>Управление платформенными обработками клиент</value>
   </synonym>

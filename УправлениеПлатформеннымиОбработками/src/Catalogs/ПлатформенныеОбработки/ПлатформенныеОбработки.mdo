@@ -9,6 +9,10 @@
   </producedTypes>
   <name>ПлатформенныеОбработки</name>
   <synonym>
+    <key>en</key>
+    <value>Platform data processors</value>
+  </synonym>
+  <synonym>
     <key>ru</key>
     <value>Платформенные обработки</value>
   </synonym>
@@ -36,6 +40,10 @@
   <attributes uuid="f515a9e6-576e-4c02-baa0-c65731a4bd1c">
     <name>ПредопределенныйЭлемент</name>
     <synonym>
+      <key>en</key>
+      <value>Predefined element</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Предопределенный элемент</value>
     </synonym>
@@ -55,11 +63,19 @@
     </producedTypes>
     <name>ИменаПодключения</name>
     <synonym>
+      <key>en</key>
+      <value>Connection names</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Имена подключения</value>
     </synonym>
     <attributes uuid="caa7ede2-9d92-476e-8ff0-2b5c677e3286">
       <name>КлючевоеИмя</name>
+      <synonym>
+        <key>en</key>
+        <value>Key Name</value>
+      </synonym>
       <synonym>
         <key>ru</key>
         <value>Ключевое имя</value>
@@ -77,6 +93,10 @@
     </attributes>
     <attributes uuid="2d72a5b5-6480-4aa3-9eea-6d80bb768ca4">
       <name>ПолныйПуть</name>
+      <synonym>
+        <key>en</key>
+        <value>Full path</value>
+      </synonym>
       <synonym>
         <key>ru</key>
         <value>Полный путь</value>
@@ -96,6 +116,10 @@
   <forms uuid="5285f9db-d053-4e1d-a2e1-dc951f549724">
     <name>ФормаЭлемента</name>
     <synonym>
+      <key>en</key>
+      <value>Object form</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
@@ -104,6 +128,10 @@
   </forms>
   <forms uuid="e24c21b9-3087-4930-ab0b-9f2e03410ce5">
     <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>

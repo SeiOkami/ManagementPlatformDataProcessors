@@ -2,6 +2,10 @@
 <mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="92a0a19a-f306-402b-acd8-74d0b4f51f76">
   <name>УправлениеПлатформеннымиОбработками</name>
   <synonym>
+    <key>en</key>
+    <value>Management platform data processors</value>
+  </synonym>
+  <synonym>
     <key>ru</key>
     <value>Управление платформенными обработками</value>
   </synonym>
@@ -25,9 +29,17 @@
   <vendor>https://github.com/SeiOkami</vendor>
   <version>1.4.1</version>
   <copyright>
-    <key>ru</key>
-    <value>Черненко Виталий Вячеславович SeiOkami@yandex.ru</value>
+    <key>en</key>
+    <value>Черненко Виталий https://github.com/SeiOkami/</value>
   </copyright>
+  <copyright>
+    <key>ru</key>
+    <value>Chernenko Vitaliy https://github.com/SeiOkami/</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/SeiOkami/</value>
+  </vendorInformationAddress>
   <languages uuid="53f79832-db8e-454f-b701-1fd696ec9ac3" extendedConfigurationObject="f463396b-e1a8-4586-8d64-df5abc908f41">
     <name>English</name>
     <objectBelonging>Adopted</objectBelonging>

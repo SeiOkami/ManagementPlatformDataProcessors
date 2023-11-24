@@ -6,6 +6,10 @@
   </producedTypes>
   <name>ВыгрузкаПлатформенныхОбработок</name>
   <synonym>
+    <key>en</key>
+    <value>Unloading of platform data processors</value>
+  </synonym>
+  <synonym>
     <key>ru</key>
     <value>Выгрузка платформенных обработок</value>
   </synonym>
@@ -18,11 +22,19 @@
     </producedTypes>
     <name>ПлатформенныеОбработки</name>
     <synonym>
+      <key>en</key>
+      <value>Platform data processors</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Платформенные обработки</value>
     </synonym>
     <attributes uuid="5e808ad3-8f86-44df-8173-fdc13bf07254">
       <name>Наименование</name>
+      <synonym>
+        <key>en</key>
+        <value>Description</value>
+      </synonym>
       <synonym>
         <key>ru</key>
         <value>Наименование</value>
@@ -39,6 +51,10 @@
     <attributes uuid="d1ed6c78-b93d-4170-a747-40f9c4293cae">
       <name>КлючевыеИмена</name>
       <synonym>
+        <key>en</key>
+        <value>Key Names</value>
+      </synonym>
+      <synonym>
         <key>ru</key>
         <value>Ключевые имена</value>
       </synonym>
@@ -54,6 +70,10 @@
     <attributes uuid="d20dcd83-bcde-414d-82fd-23647ae955bf">
       <name>УникальныйИдентификатор</name>
       <synonym>
+        <key>en</key>
+        <value>Unique identifier</value>
+      </synonym>
+      <synonym>
         <key>ru</key>
         <value>Уникальный идентификатор</value>
       </synonym>
@@ -67,6 +87,10 @@
   <forms uuid="21e6dcdf-8f31-4591-bc24-9f39e762bd88">
     <name>Форма</name>
     <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Форма</value>
     </synonym>
@@ -75,6 +99,10 @@
   </forms>
   <templates uuid="34b2e850-faca-4915-bc20-d45f42b660dd">
     <name>ПредопределенныеДанные</name>
+    <synonym>
+      <key>en</key>
+      <value>Predefined data</value>
+    </synonym>
     <synonym>
       <key>ru</key>
       <value>Предопределенные данные</value>

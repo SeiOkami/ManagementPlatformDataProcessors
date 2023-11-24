@@ -2,6 +2,10 @@
 <mdclass:CommandGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af3454e7-2df6-45b7-bfa1-41e7236d590d">
   <name>ОбновлениеДанныхПодсистемыПлатформенныхОбработок</name>
   <synonym>
+    <key>en</key>
+    <value>Data update</value>
+  </synonym>
+  <synonym>
     <key>ru</key>
     <value>Обновление данных</value>
   </synonym>

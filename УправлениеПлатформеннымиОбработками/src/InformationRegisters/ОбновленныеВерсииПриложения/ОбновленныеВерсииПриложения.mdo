@@ -11,6 +11,10 @@
   </producedTypes>
   <name>ОбновленныеВерсииПриложения</name>
   <synonym>
+    <key>en</key>
+    <value>Updated versions of the application</value>
+  </synonym>
+  <synonym>
     <key>ru</key>
     <value>Обновленные версии приложения</value>
   </synonym>
@@ -23,6 +27,10 @@
   </recordPresentation>
   <resources uuid="a62a4d25-0e33-451b-8549-a4134dc25e70">
     <name>ДатаОбновления</name>
+    <synonym>
+      <key>en</key>
+      <value>Update Date</value>
+    </synonym>
     <synonym>
       <key>ru</key>
       <value>Дата обновления</value>
@@ -39,6 +47,10 @@
   </resources>
   <dimensions uuid="fadacff0-ee63-4303-aab7-82c514d2da9d">
     <name>ВерсияПриложения</name>
+    <synonym>
+      <key>en</key>
+      <value>Application version</value>
+    </synonym>
     <synonym>
       <key>ru</key>
       <value>Версия приложения</value>

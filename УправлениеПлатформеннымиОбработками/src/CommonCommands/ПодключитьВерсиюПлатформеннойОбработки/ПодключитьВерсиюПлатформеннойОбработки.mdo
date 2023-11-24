@@ -2,6 +2,10 @@
 <mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf8bb045-4167-4add-a876-09c52d995a36">
   <name>ПодключитьВерсиюПлатформеннойОбработки</name>
   <synonym>
+    <key>en</key>
+    <value>Connect for the current session</value>
+  </synonym>
+  <synonym>
     <key>ru</key>
     <value>Подключить для текущего сеанса</value>
   </synonym>
