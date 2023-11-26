@@ -22,6 +22,10 @@
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <recordPresentation>
+    <key>en</key>
+    <value>Updated version of the application</value>
+  </recordPresentation>
+  <recordPresentation>
     <key>ru</key>
     <value>Обновленная версия приложения</value>
   </recordPresentation>

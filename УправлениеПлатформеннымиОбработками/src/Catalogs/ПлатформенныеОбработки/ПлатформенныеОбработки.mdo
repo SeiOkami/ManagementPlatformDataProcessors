@@ -23,6 +23,10 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
+    <key>en</key>
+    <value>Platform data processor</value>
+  </objectPresentation>
+  <objectPresentation>
     <key>ru</key>
     <value>Платформенная обработка</value>
   </objectPresentation>

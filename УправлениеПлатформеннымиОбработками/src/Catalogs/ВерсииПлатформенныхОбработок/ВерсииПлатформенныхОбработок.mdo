@@ -63,6 +63,10 @@
     <dataHistory>Use</dataHistory>
     <name>Owner</name>
     <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Обработка</value>
     </synonym>
@@ -78,6 +82,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Parent</name>
+    <synonym>
+      <key>en</key>
+      <value>Original version</value>
+    </synonym>
     <synonym>
       <key>ru</key>
       <value>Оригинальная версия</value>
@@ -111,6 +119,10 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Platform data processing version</value>
+  </objectPresentation>
   <objectPresentation>
     <key>ru</key>
     <value>Версия платформенной обработки</value>

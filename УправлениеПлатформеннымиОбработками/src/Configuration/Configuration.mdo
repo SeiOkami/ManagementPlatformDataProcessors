@@ -37,6 +37,10 @@
     <value>Chernenko Vitaliy https://github.com/SeiOkami/</value>
   </copyright>
   <vendorInformationAddress>
+    <key>en</key>
+    <value>https://github.com/SeiOkami/</value>
+  </vendorInformationAddress>
+  <vendorInformationAddress>
     <key>ru</key>
     <value>https://github.com/SeiOkami/</value>
   </vendorInformationAddress>

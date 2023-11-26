@@ -24,6 +24,10 @@
   <defaultListForm>InformationRegister.ПодменаПлатформенныхОбработок.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <recordPresentation>
+    <key>en</key>
+    <value>Substitution of platform data processor</value>
+  </recordPresentation>
+  <recordPresentation>
     <key>ru</key>
     <value>Подмена обработки платформы</value>
   </recordPresentation>

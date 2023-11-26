@@ -2,8 +2,12 @@
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbf9229a-0c03-47f4-898f-2f6eecc0772c">
   <name>УправлениеПлатфомреннымиОбработками</name>
   <synonym>
+    <key>en</key>
+    <value>Management platform data processors</value>
+  </synonym>
+  <synonym>
     <key>ru</key>
-    <value>Управление платфомренными обработками</value>
+    <value>Управление платформенными обработками</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>InformationRegister.ПодменаПлатформенныхОбработок</content>
