@@ -48,6 +48,25 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
+    <attributes uuid="a129b2d1-b86b-4883-abca-17d808e4ca28">
+      <name>Description</name>
+      <synonym>
+        <key>en</key>
+        <value>Description</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Description</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
     <attributes uuid="d1ed6c78-b93d-4170-a747-40f9c4293cae">
       <name>КлючевыеИмена</name>
       <synonym>
