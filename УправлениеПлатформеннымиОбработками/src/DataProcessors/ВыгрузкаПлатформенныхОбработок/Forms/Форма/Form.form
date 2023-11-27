@@ -477,6 +477,10 @@
   <formCommands>
     <name>ВыгрузитьВыделенныеОбработки</name>
     <title>
+      <key>en</key>
+      <value>Unload selected data processors</value>
+    </title>
+    <title>
       <key>ru</key>
       <value>Выгрузить выделенные обработки</value>
     </title>

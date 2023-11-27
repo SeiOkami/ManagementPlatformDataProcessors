@@ -305,6 +305,10 @@
   <attributes>
     <name>ПользователиИБ</name>
     <title>
+      <key>en</key>
+      <value>Users</value>
+    </title>
+    <title>
       <key>ru</key>
       <value>Пользователи ИБ</value>
     </title>
@@ -320,6 +324,10 @@
     </edit>
     <columns>
       <name>УникальныйИдентификатор</name>
+      <title>
+        <key>en</key>
+        <value>UID</value>
+      </title>
       <title>
         <key>ru</key>
         <value>Уникальный идентификатор</value>
@@ -337,6 +345,10 @@
     </columns>
     <columns>
       <name>ПолноеИмя</name>
+      <title>
+        <key>en</key>
+        <value>Full name</value>
+      </title>
       <title>
         <key>ru</key>
         <value>Полное имя</value>
