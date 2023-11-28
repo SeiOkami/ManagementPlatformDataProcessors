@@ -355,6 +355,10 @@
             <common>true</common>
           </userVisible>
           <title>
+            <key>en</key>
+            <value>Data processors</value>
+          </title>
+          <title>
             <key>ru</key>
             <value>Обработки</value>
           </title>
@@ -1038,6 +1042,10 @@
             <common>true</common>
           </userVisible>
           <title>
+            <key>en</key>
+            <value>Versions data processors</value>
+          </title>
+          <title>
             <key>ru</key>
             <value>Версии обработок</value>
           </title>
@@ -1510,6 +1518,10 @@
             <common>true</common>
           </userVisible>
           <title>
+            <key>en</key>
+            <value>Substitutions</value>
+          </title>
+          <title>
             <key>ru</key>
             <value>Настройки подмены</value>
           </title>
@@ -1708,6 +1720,10 @@
   <attributes>
     <name>СписокОбработки</name>
     <title>
+      <key>en</key>
+      <value>List of data processors</value>
+    </title>
+    <title>
       <key>ru</key>
       <value>Список обработки</value>
     </title>
@@ -1734,6 +1750,10 @@
   <attributes>
     <name>ТекущаяОбработка</name>
     <title>
+      <key>en</key>
+      <value>This data processor</value>
+    </title>
+    <title>
       <key>ru</key>
       <value>Текущая обработка</value>
     </title>
@@ -1750,6 +1770,10 @@
   </attributes>
   <attributes>
     <name>СписокПодмены</name>
+    <title>
+      <key>en</key>
+      <value>List of substitutions</value>
+    </title>
     <title>
       <key>ru</key>
       <value>Список подмены</value>
@@ -1772,7 +1796,6 @@
       <mainTable>InformationRegister.ПодменаПлатформенныхОбработок</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
-      <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>

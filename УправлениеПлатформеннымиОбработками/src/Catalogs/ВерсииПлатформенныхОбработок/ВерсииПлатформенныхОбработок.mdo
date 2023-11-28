@@ -9,8 +9,12 @@
   </producedTypes>
   <name>ВерсииПлатформенныхОбработок</name>
   <synonym>
+    <key>en</key>
+    <value>Versions platform data processors (MPP)</value>
+  </synonym>
+  <synonym>
     <key>ru</key>
-    <value>Версии платформенных обработок</value>
+    <value>Версии платформенных обработок (УПО)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ВерсииПлатформенныхОбработок.StandardAttribute.Description</inputByString>
@@ -59,6 +63,10 @@
     <dataHistory>Use</dataHistory>
     <name>Owner</name>
     <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Обработка</value>
     </synonym>
@@ -74,6 +82,10 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Parent</name>
+    <synonym>
+      <key>en</key>
+      <value>Original version</value>
+    </synonym>
     <synonym>
       <key>ru</key>
       <value>Оригинальная версия</value>
@@ -105,8 +117,20 @@
   </standardAttributes>
   <basedOn>Catalog.ВерсииПлатформенныхОбработок</basedOn>
   <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Platform data processing version</value>
+  </objectPresentation>
   <objectPresentation>
     <key>ru</key>
     <value>Версия платформенной обработки</value>
@@ -129,6 +153,10 @@
   <attributes uuid="7f5d6f81-562d-45d4-bc68-f1b8d12e45e9">
     <name>ДанныеВерсии</name>
     <synonym>
+      <key>en</key>
+      <value>Version data</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Данные версии</value>
     </synonym>
@@ -143,6 +171,10 @@
   </attributes>
   <attributes uuid="05a0dc8e-a260-4780-96c0-e9b12c66f01a">
     <name>Комментарий</name>
+    <synonym>
+      <key>en</key>
+      <value>Commentary</value>
+    </synonym>
     <synonym>
       <key>ru</key>
       <value>Комментарий</value>
@@ -166,6 +198,10 @@
   <attributes uuid="26601b31-d80e-4435-a2ec-b19d2f3f9518">
     <name>ВерсияПриложения</name>
     <synonym>
+      <key>en</key>
+      <value>Platform version</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Версия платформы</value>
     </synonym>
@@ -185,6 +221,10 @@
   </attributes>
   <attributes uuid="7ec7d016-9f2e-4304-8046-23e7ebbed044">
     <name>КлючевоеИмя</name>
+    <synonym>
+      <key>en</key>
+      <value>Key Name</value>
+    </synonym>
     <synonym>
       <key>ru</key>
       <value>Ключевое имя</value>
@@ -206,6 +246,10 @@
   <forms uuid="37c2be72-f9ec-4dea-9e52-3b605b8dc7e7">
     <name>ФормаЭлемента</name>
     <synonym>
+      <key>en</key>
+      <value>Object form</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
@@ -214,6 +258,10 @@
   </forms>
   <forms uuid="f06ce196-7fcb-43fa-8e7c-eb02c169ecfc">
     <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>

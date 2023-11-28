@@ -2,8 +2,12 @@
 <mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="92a0a19a-f306-402b-acd8-74d0b4f51f76">
   <name>УправлениеПлатформеннымиОбработками</name>
   <synonym>
+    <key>en</key>
+    <value>Management platform data processors (MPP)</value>
+  </synonym>
+  <synonym>
     <key>ru</key>
-    <value>Управление платформенными обработками</value>
+    <value>Управление платформенными обработками (УПО)</value>
   </synonym>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
@@ -25,9 +29,39 @@
   <vendor>https://github.com/SeiOkami</vendor>
   <version>1.4.1</version>
   <copyright>
-    <key>ru</key>
-    <value>Черненко Виталий Вячеславович SeiOkami@yandex.ru</value>
+    <key>en</key>
+    <value>Черненко Виталий https://github.com/SeiOkami/</value>
   </copyright>
+  <copyright>
+    <key>ru</key>
+    <value>Chernenko Vitaliy https://github.com/SeiOkami/</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>en</key>
+    <value>https://github.com/SeiOkami/</value>
+  </vendorInformationAddress>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/SeiOkami/</value>
+  </vendorInformationAddress>
+  <languages uuid="53f79832-db8e-454f-b701-1fd696ec9ac3" extendedConfigurationObject="f463396b-e1a8-4586-8d64-df5abc908f41">
+    <name>English</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>en</languageCode>
+  </languages>
+  <languages uuid="ff257593-8b7d-4b42-809d-acf5bb848c91" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
   <subsystems>Subsystem.УправлениеПлатфомреннымиОбработками</subsystems>
   <roles>Role.ЧтениеПлатформенныхОбработок</roles>
   <roles>Role.АдминистраторПлатформенныхОбработок</roles>

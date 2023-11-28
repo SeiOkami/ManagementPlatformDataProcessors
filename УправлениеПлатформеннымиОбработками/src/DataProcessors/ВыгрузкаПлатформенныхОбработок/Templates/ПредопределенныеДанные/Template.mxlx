@@ -2,15 +2,20 @@
 <document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<languageSettings>
 		<currentLanguage>ru</currentLanguage>
-		<defaultLanguage>ru</defaultLanguage>
+		<defaultLanguage>#</defaultLanguage>
+		<languageInfo>
+			<id>en</id>
+			<code>English</code>
+			<description/>
+		</languageInfo>
 		<languageInfo>
 			<id>ru</id>
 			<code>Русский</code>
-			<description>Русский</description>
+			<description/>
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>3</size>
+		<size>4</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -20,11 +25,17 @@
 		<columnsItem>
 			<index>1</index>
 			<column>
-				<formatIndex>2</formatIndex>
+				<formatIndex>1</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>2</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>3</index>
 			<column>
 				<formatIndex>2</formatIndex>
 			</column>
@@ -40,6 +51,17 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Description</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -88,6 +110,17 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Active users</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>StandardActiveUsers</v8:content>
 						</v8:item>
 					</tl>
@@ -126,6 +159,17 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Event log</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>StandardEventLog</v8:content>
 						</v8:item>
 					</tl>
@@ -154,6 +198,17 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Поиск ссылок на объект</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Find references to objects</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -203,6 +258,17 @@ StandardFindByReference</v8:content>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Document Posting</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>StandardDocumentsPosting</v8:content>
 						</v8:item>
 					</tl>
@@ -231,6 +297,17 @@ StandardFindByReference</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Удаление помеченных объектов</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Delete Marked Objects</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -279,6 +356,17 @@ StandardFindByReference</v8:content>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Management of external data sources</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>StandardExternalDataSourcesManagement</v8:content>
 						</v8:item>
 					</tl>
@@ -307,6 +395,17 @@ StandardFindByReference</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Управление итогами</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Totals management</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -355,6 +454,17 @@ StandardFindByReference</v8:content>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Manage Full Text Search</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>StandardFullTextSearchManagement</v8:content>
 						</v8:item>
 					</tl>
@@ -383,6 +493,17 @@ StandardFindByReference</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Управление расширениями конфигурации</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Manage configuration extensions</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -432,6 +553,17 @@ StandardConfigurationExtensionsManagement</v8:content>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Collaboration system management</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>StandardECSRegister,
 StandardCollaborationSystemManagement</v8:content>
 						</v8:item>
@@ -461,6 +593,17 @@ StandardCollaborationSystemManagement</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Конструктор запросов на управляемых формах</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Query wizard</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -509,6 +652,17 @@ StandardCollaborationSystemManagement</v8:content>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Data change history</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>StandardDataChangeHistory</v8:content>
 						</v8:item>
 					</tl>
@@ -537,6 +691,17 @@ StandardCollaborationSystemManagement</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Управление копиями базы данных</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Database copies management</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -585,6 +750,17 @@ StandardCollaborationSystemManagement</v8:content>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Management of error processing settings</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>StandardErrorProcessingSettings</v8:content>
 						</v8:item>
 					</tl>
@@ -613,6 +789,17 @@ StandardCollaborationSystemManagement</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Управление серверами</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Servers management</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -661,6 +848,17 @@ StandardCollaborationSystemManagement</v8:content>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Management of integration services</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>StandardIntegrationServicesManagment</v8:content>
 						</v8:item>
 					</tl>
@@ -689,6 +887,17 @@ StandardCollaborationSystemManagement</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Управление системой аналитики</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Analytics system management</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -737,6 +946,17 @@ StandardCollaborationSystemManagement</v8:content>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Authentication lock</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>StandardAuthenticationLocks</v8:content>
 						</v8:item>
 					</tl>
@@ -765,6 +985,17 @@ StandardCollaborationSystemManagement</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные настройки аутентификации</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Additional authentication settings</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -813,6 +1044,17 @@ StandardCollaborationSystemManagement</v8:content>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Configuration licensing</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>StandardConfigurationLicense</v8:content>
 						</v8:item>
 					</tl>
@@ -841,6 +1083,17 @@ StandardCollaborationSystemManagement</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Настройка журнала регистрации</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Event log settings</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -889,6 +1142,17 @@ StandardCollaborationSystemManagement</v8:content>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Infobase parameters</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>StandardInfobaseParameters</v8:content>
 						</v8:item>
 					</tl>
@@ -917,6 +1181,17 @@ StandardCollaborationSystemManagement</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Получение лицензии</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>License acquisition</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -965,6 +1240,17 @@ StandardCollaborationSystemManagement</v8:content>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Users</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>StandardUserList</v8:content>
 						</v8:item>
 					</tl>
@@ -1003,6 +1289,17 @@ StandardCollaborationSystemManagement</v8:content>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Infobase regional settings</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>StandardInfobaseRegionalSettings</v8:content>
 						</v8:item>
 					</tl>
@@ -1031,6 +1328,17 @@ StandardCollaborationSystemManagement</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сервис сборки мобильных приложений</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Mobile application build service</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1080,6 +1388,17 @@ StandardMobileAppBuilderServiceLoader</v8:content>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
+							<v8:content>Manage speech recognition</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
 							<v8:content>StandardSpeechToText</v8:content>
 						</v8:item>
 					</tl>
@@ -1108,6 +1427,17 @@ StandardMobileAppBuilderServiceLoader</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Управление табличными пространствами базы данных</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>1</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Database tablespace management</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1146,6 +1476,17 @@ StandardMobileAppBuilderServiceLoader</v8:content>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Управление хранилищем двоичных данных</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Binary data storage management</v8:content>
 						</v8:item>
 					</tl>
 				</c>

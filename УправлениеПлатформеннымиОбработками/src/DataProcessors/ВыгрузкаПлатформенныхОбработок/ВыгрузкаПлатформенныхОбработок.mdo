@@ -6,11 +6,23 @@
   </producedTypes>
   <name>ВыгрузкаПлатформенныхОбработок</name>
   <synonym>
+    <key>en</key>
+    <value>Unloading of platform data processors (MPP)</value>
+  </synonym>
+  <synonym>
     <key>ru</key>
-    <value>Выгрузка платформенных обработок</value>
+    <value>Выгрузка платформенных обработок (УПО)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ВыгрузкаПлатформенныхОбработок.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+    <pages>
+      <lang>en</lang>
+    </pages>
+  </help>
   <tabularSections uuid="0b28a52b-60de-4d78-8104-04202f458746">
     <producedTypes>
       <objectType typeId="eafe7313-c5f0-4c79-9bc0-da114e6437aa" valueTypeId="aed83be9-f5e6-416b-8fe2-f471db4b04f1"/>
@@ -18,11 +30,19 @@
     </producedTypes>
     <name>ПлатформенныеОбработки</name>
     <synonym>
+      <key>en</key>
+      <value>Platform data processors</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Платформенные обработки</value>
     </synonym>
     <attributes uuid="5e808ad3-8f86-44df-8173-fdc13bf07254">
       <name>Наименование</name>
+      <synonym>
+        <key>en</key>
+        <value>Description</value>
+      </synonym>
       <synonym>
         <key>ru</key>
         <value>Наименование</value>
@@ -36,8 +56,31 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
+    <attributes uuid="a129b2d1-b86b-4883-abca-17d808e4ca28">
+      <name>Description</name>
+      <synonym>
+        <key>en</key>
+        <value>Description</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Description</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
     <attributes uuid="d1ed6c78-b93d-4170-a747-40f9c4293cae">
       <name>КлючевыеИмена</name>
+      <synonym>
+        <key>en</key>
+        <value>Key Names</value>
+      </synonym>
       <synonym>
         <key>ru</key>
         <value>Ключевые имена</value>
@@ -54,6 +97,10 @@
     <attributes uuid="d20dcd83-bcde-414d-82fd-23647ae955bf">
       <name>УникальныйИдентификатор</name>
       <synonym>
+        <key>en</key>
+        <value>Unique identifier</value>
+      </synonym>
+      <synonym>
         <key>ru</key>
         <value>Уникальный идентификатор</value>
       </synonym>
@@ -67,6 +114,10 @@
   <forms uuid="21e6dcdf-8f31-4591-bc24-9f39e762bd88">
     <name>Форма</name>
     <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Форма</value>
     </synonym>
@@ -75,6 +126,10 @@
   </forms>
   <templates uuid="34b2e850-faca-4915-bc20-d45f42b660dd">
     <name>ПредопределенныеДанные</name>
+    <synonym>
+      <key>en</key>
+      <value>Predefined data</value>
+    </synonym>
     <synonym>
       <key>ru</key>
       <value>Предопределенные данные</value>

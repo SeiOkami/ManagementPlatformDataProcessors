@@ -11,8 +11,12 @@
   </producedTypes>
   <name>ПодменаПлатформенныхОбработок</name>
   <synonym>
+    <key>en</key>
+    <value>Substitution of platform data processors (MPP)</value>
+  </synonym>
+  <synonym>
     <key>ru</key>
-    <value>Подмена платформенных обработок</value>
+    <value>Подмена платформенных обработок (УПО)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
@@ -20,11 +24,19 @@
   <defaultListForm>InformationRegister.ПодменаПлатформенныхОбработок.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <recordPresentation>
+    <key>en</key>
+    <value>Substitution of platform data processor</value>
+  </recordPresentation>
+  <recordPresentation>
     <key>ru</key>
     <value>Подмена обработки платформы</value>
   </recordPresentation>
   <resources uuid="baf007fd-0217-417a-abdf-efd030d407c1">
     <name>Использование</name>
+    <synonym>
+      <key>en</key>
+      <value>Use</value>
+    </synonym>
     <synonym>
       <key>ru</key>
       <value>Использование</value>
@@ -42,6 +54,10 @@
   <resources uuid="029262e1-a86f-4e3a-8899-820969235be4">
     <name>ВерсияОбработки</name>
     <synonym>
+      <key>en</key>
+      <value>Version</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Версия обработки</value>
     </synonym>
@@ -57,6 +73,10 @@
   </resources>
   <attributes uuid="e1b8e364-21b5-4944-8295-ddf8cbe012d0">
     <name>Комментарий</name>
+    <synonym>
+      <key>en</key>
+      <value>Commentary</value>
+    </synonym>
     <synonym>
       <key>ru</key>
       <value>Комментарий</value>
@@ -80,6 +100,10 @@
   <dimensions uuid="625ff2df-be9f-4b8a-be11-2deaf1cd2f11">
     <name>Владелец</name>
     <synonym>
+      <key>en</key>
+      <value>User ID</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Идентификатор пользователя ИБ</value>
     </synonym>
@@ -95,6 +119,10 @@
   </dimensions>
   <dimensions uuid="4601500a-b529-4856-a3b4-33bd5590f3de">
     <name>Обработка</name>
+    <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
     <synonym>
       <key>ru</key>
       <value>Обработка</value>
@@ -117,6 +145,10 @@
   <forms uuid="c240b02f-7b5f-4752-a14b-f3cc7c2c25d0">
     <name>ФормаСписка</name>
     <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
@@ -126,6 +158,10 @@
   <forms uuid="7fe92786-1e8c-45af-80ad-a5693d397dcc">
     <name>ФормаЗаписи</name>
     <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
       <key>ru</key>
       <value>Форма записи</value>
     </synonym>
@@ -134,6 +170,10 @@
   </forms>
   <forms uuid="a30349b6-b0ac-46fa-8227-1a468312c9fe">
     <name>ФормаВыбораПользователяИБ</name>
+    <synonym>
+      <key>en</key>
+      <value>User selection form</value>
+    </synonym>
     <synonym>
       <key>ru</key>
       <value>Форма выбора пользователя ИБ</value>

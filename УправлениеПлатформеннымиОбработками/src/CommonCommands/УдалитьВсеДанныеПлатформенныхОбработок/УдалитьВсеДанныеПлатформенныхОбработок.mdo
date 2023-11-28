@@ -2,6 +2,10 @@
 <mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88afceb1-54c4-422f-ae43-f96bcb2ff730">
   <name>УдалитьВсеДанныеПлатформенныхОбработок</name>
   <synonym>
+    <key>en</key>
+    <value>Delete platform data processors</value>
+  </synonym>
+  <synonym>
     <key>ru</key>
     <value>Удалить все данные платформенных обработок</value>
   </synonym>
