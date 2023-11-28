@@ -10,11 +10,11 @@
   <name>ПлатформенныеОбработки</name>
   <synonym>
     <key>en</key>
-    <value>Platform data processors</value>
+    <value>Platform data processors (MPP)</value>
   </synonym>
   <synonym>
     <key>ru</key>
-    <value>Платформенные обработки</value>
+    <value>Платформенные обработки (УПО)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ПлатформенныеОбработки.StandardAttribute.Description</inputByString>

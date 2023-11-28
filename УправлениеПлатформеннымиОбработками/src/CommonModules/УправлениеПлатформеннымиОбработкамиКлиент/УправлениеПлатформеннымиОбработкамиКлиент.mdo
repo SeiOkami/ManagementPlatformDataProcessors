@@ -3,11 +3,11 @@
   <name>УправлениеПлатформеннымиОбработкамиКлиент</name>
   <synonym>
     <key>en</key>
-    <value>Management platform data processors client</value>
+    <value>Management platform data processors client (MPP)</value>
   </synonym>
   <synonym>
     <key>ru</key>
-    <value>Управление платформенными обработками клиент</value>
+    <value>Управление платформенными обработками клиент (УПО)</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

@@ -7,14 +7,22 @@
   <name>ВыгрузкаПлатформенныхОбработок</name>
   <synonym>
     <key>en</key>
-    <value>Unloading of platform data processors</value>
+    <value>Unloading of platform data processors (MPP)</value>
   </synonym>
   <synonym>
     <key>ru</key>
-    <value>Выгрузка платформенных обработок</value>
+    <value>Выгрузка платформенных обработок (УПО)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ВыгрузкаПлатформенныхОбработок.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+    <pages>
+      <lang>en</lang>
+    </pages>
+  </help>
   <tabularSections uuid="0b28a52b-60de-4d78-8104-04202f458746">
     <producedTypes>
       <objectType typeId="eafe7313-c5f0-4c79-9bc0-da114e6437aa" valueTypeId="aed83be9-f5e6-416b-8fe2-f471db4b04f1"/>

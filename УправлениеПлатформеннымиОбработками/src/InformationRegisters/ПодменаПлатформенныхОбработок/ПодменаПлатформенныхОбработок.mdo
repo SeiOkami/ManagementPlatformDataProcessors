@@ -12,11 +12,11 @@
   <name>ПодменаПлатформенныхОбработок</name>
   <synonym>
     <key>en</key>
-    <value>Substitution of platform data processors</value>
+    <value>Substitution of platform data processors (MPP)</value>
   </synonym>
   <synonym>
     <key>ru</key>
-    <value>Подмена платформенных обработок</value>
+    <value>Подмена платформенных обработок (УПО)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>

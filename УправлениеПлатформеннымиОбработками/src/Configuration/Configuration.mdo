@@ -3,11 +3,11 @@
   <name>УправлениеПлатформеннымиОбработками</name>
   <synonym>
     <key>en</key>
-    <value>Management platform data processors</value>
+    <value>Management platform data processors (MPP)</value>
   </synonym>
   <synonym>
     <key>ru</key>
-    <value>Управление платформенными обработками</value>
+    <value>Управление платформенными обработками (УПО)</value>
   </synonym>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">

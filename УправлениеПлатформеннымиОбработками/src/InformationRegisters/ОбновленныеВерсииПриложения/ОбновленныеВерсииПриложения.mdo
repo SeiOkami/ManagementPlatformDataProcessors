@@ -12,11 +12,11 @@
   <name>ОбновленныеВерсииПриложения</name>
   <synonym>
     <key>en</key>
-    <value>Updated versions of the application</value>
+    <value>Updated versions of the application (MPP)</value>
   </synonym>
   <synonym>
     <key>ru</key>
-    <value>Обновленные версии приложения</value>
+    <value>Обновленные версии приложения (УПО)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>

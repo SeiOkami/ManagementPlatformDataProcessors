@@ -3,10 +3,10 @@
   <name>ЧтениеПлатформенныхОбработок</name>
   <synonym>
     <key>en</key>
-    <value>Read platform data processors</value>
+    <value>Read platform data processors (MPP)</value>
   </synonym>
   <synonym>
     <key>ru</key>
-    <value>Чтение платформенных обработок</value>
+    <value>Чтение платформенных обработок (УПО)</value>
   </synonym>
 </mdclass:Role>

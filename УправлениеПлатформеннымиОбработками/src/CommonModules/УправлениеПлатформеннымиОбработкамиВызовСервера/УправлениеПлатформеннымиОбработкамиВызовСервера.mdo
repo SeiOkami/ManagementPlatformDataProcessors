@@ -3,11 +3,11 @@
   <name>УправлениеПлатформеннымиОбработкамиВызовСервера</name>
   <synonym>
     <key>en</key>
-    <value>Management platform data processors server call</value>
+    <value>Management platform data processors server call (MPP)</value>
   </synonym>
   <synonym>
     <key>ru</key>
-    <value>Управление платформенными обработками вызов сервера</value>
+    <value>Управление платформенными обработками вызов сервера (УПО)</value>
   </synonym>
   <server>true</server>
   <serverCall>true</serverCall>

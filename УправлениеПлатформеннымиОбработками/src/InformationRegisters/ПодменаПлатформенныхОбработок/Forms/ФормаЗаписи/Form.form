@@ -479,23 +479,6 @@
       <common>true</common>
     </edit>
   </attributes>
-  <attributes>
-    <name>ПодсистемаПользователейСуществует</name>
-    <title>
-      <key>ru</key>
-      <value>Подсистема пользователей существует</value>
-    </title>
-    <id>3</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

@@ -3,10 +3,10 @@
   <name>АдминистраторПлатформенныхОбработок</name>
   <synonym>
     <key>en</key>
-    <value>Administrator platform data processors</value>
+    <value>Administrator platform data processors (MPP)</value>
   </synonym>
   <synonym>
     <key>ru</key>
-    <value>Администратор платформенных обработок</value>
+    <value>Администратор платформенных обработок (УПО)</value>
   </synonym>
 </mdclass:Role>

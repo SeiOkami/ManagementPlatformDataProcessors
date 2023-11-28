@@ -10,11 +10,11 @@
   <name>ВерсииПлатформенныхОбработок</name>
   <synonym>
     <key>en</key>
-    <value>Versions platform data processors</value>
+    <value>Versions platform data processors (MPP)</value>
   </synonym>
   <synonym>
     <key>ru</key>
-    <value>Версии платформенных обработок</value>
+    <value>Версии платформенных обработок (УПО)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ВерсииПлатформенныхОбработок.StandardAttribute.Description</inputByString>
@@ -117,6 +117,14 @@
   </standardAttributes>
   <basedOn>Catalog.ВерсииПлатформенныхОбработок</basedOn>
   <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
