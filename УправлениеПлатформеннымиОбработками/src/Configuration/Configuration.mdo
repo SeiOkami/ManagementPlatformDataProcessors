@@ -12,7 +12,6 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <managedApplicationModule>Extended</managedApplicationModule>
-    <defaultLanguage>Checked</defaultLanguage>
     <defaultRoles>Extended</defaultRoles>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b1c38992-194b-4b5a-98ae-df26f3661ef3"/>
@@ -30,7 +29,6 @@
   <defaultRoles>Role.УПО_ЧтениеПлатформенныхОбработок</defaultRoles>
   <vendor>https://github.com/SeiOkami</vendor>
   <version>1.4.1</version>
-  <defaultLanguage>Language.English</defaultLanguage>
   <copyright>
     <key>en</key>
     <value>Черненко Виталий https://github.com/SeiOkami/</value>
@@ -55,6 +53,15 @@
       <languageCode>Checked</languageCode>
     </extension>
     <languageCode>en</languageCode>
+  </languages>
+  <languages uuid="ff257593-8b7d-4b42-809d-acf5bb848c91" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.УПО_УправлениеПлатформеннымиОбработками</subsystems>
   <roles>Role.УПО_ЧтениеПлатформенныхОбработок</roles>
