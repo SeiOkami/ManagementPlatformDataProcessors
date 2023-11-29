@@ -64,8 +64,8 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.УПО_УправлениеПлатформеннымиОбработками</subsystems>
-  <roles>Role.УПО_ЧтениеПлатформенныхОбработок</roles>
   <roles>Role.УПО_АдминистраторПлатформенныхОбработок</roles>
+  <roles>Role.УПО_ЧтениеПлатформенныхОбработок</roles>
   <commonModules>CommonModule.УПО_ВызовСервера</commonModules>
   <commonModules>CommonModule.УПО_Клиент</commonModules>
   <commonModules>CommonModule.УПО_КлиентСервер</commonModules>
@@ -78,9 +78,9 @@
   <commonCommands>CommonCommand.УПО_УдалитьВсеДанныеПлатформенныхОбработок</commonCommands>
   <commonCommands>CommonCommand.УПО_УстановитьОбщейПодменяемойВерсиейОбработки</commonCommands>
   <commonCommands>CommonCommand.УПО_УстановитьПодменяемойВерсиейДляТекущегоПользователя</commonCommands>
-  <commandGroups>CommandGroup.УПО_ПодключитьВерсиюПлатформеннойОбработки</commandGroups>
   <commandGroups>CommandGroup.УПО_ЗагрузитьВыгрузитьВерсиюПлатформеннойОбработки</commandGroups>
   <commandGroups>CommandGroup.УПО_ОбновлениеДанныхПодсистемыПлатформенныхОбработок</commandGroups>
+  <commandGroups>CommandGroup.УПО_ПодключитьВерсиюПлатформеннойОбработки</commandGroups>
   <catalogs>Catalog.УПО_ВерсииПлатформенныхОбработок</catalogs>
   <catalogs>Catalog.УПО_ПлатформенныеОбработки</catalogs>
   <dataProcessors>DataProcessor.УПО_ВыгрузкаПлатформенныхОбработок</dataProcessors>
