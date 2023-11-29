@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88afceb1-54c4-422f-ae43-f96bcb2ff730">
+  <name>УПО_УдалитьВсеДанныеПлатформенныхОбработок</name>
+  <synonym>
+    <key>en</key>
+    <value>Delete platform data processors</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить все данные платформенных обработок</value>
+  </synonym>
+  <group>CommandGroup.УПО_ОбновлениеДанныхПодсистемыПлатформенныхОбработок</group>
+  <commandParameterType/>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Delete</picture>
+  </picture>
+</mdclass:CommonCommand>

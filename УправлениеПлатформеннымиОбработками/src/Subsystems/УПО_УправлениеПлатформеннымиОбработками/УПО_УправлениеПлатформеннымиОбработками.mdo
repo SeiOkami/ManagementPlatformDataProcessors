@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbf9229a-0c03-47f4-898f-2f6eecc0772c">
+  <name>УПО_УправлениеПлатформеннымиОбработками</name>
+  <synonym>
+    <key>en</key>
+    <value>Management platform data processors</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Управление платформенными обработками</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.УПО_ПодменаПлатформенныхОбработок</content>
+  <content>Catalog.УПО_ПлатформенныеОбработки</content>
+  <content>Catalog.УПО_ВерсииПлатформенныхОбработок</content>
+  <content>CommonModule.УПО_Сервер</content>
+  <content>CommonModule.УПО_ВызовСервера</content>
+  <content>CommonModule.УПО_Клиент</content>
+  <content>CommonCommand.УПО_ОбновитьВерсииПлатформенныхОбработок</content>
+  <content>CommonModule.УПО_КлиентСервер</content>
+  <content>CommonCommand.УПО_УдалитьВсеДанныеПлатформенныхОбработок</content>
+  <content>CommonCommand.УПО_ЗапуститьВерсиюПлатформеннойОбработки</content>
+  <content>CommonCommand.УПО_ПодключитьВерсиюПлатформеннойОбработки</content>
+  <content>CommonCommand.УПО_ВыгрузитьВерсиюПлатформеннойОбработки</content>
+  <content>Role.УПО_ЧтениеПлатформенныхОбработок</content>
+  <content>CommonCommand.УПО_ЗагрузитьВерсиюПлатформеннойОбработки</content>
+  <content>CommonCommand.УПО_УстановитьОбщейПодменяемойВерсиейОбработки</content>
+  <content>CommonCommand.УПО_УстановитьПодменяемойВерсиейДляТекущегоПользователя</content>
+  <content>CommandGroup.УПО_ПодключитьВерсиюПлатформеннойОбработки</content>
+  <content>CommandGroup.УПО_ЗагрузитьВыгрузитьВерсиюПлатформеннойОбработки</content>
+  <content>CommandGroup.УПО_ОбновлениеДанныхПодсистемыПлатформенныхОбработок</content>
+</mdclass:Subsystem>

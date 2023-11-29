@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23a1a87c-eb7d-457d-87c4-ad97d997add5">
+  <name>УПО_Сервер</name>
+  <synonym>
+    <key>en</key>
+    <value>Management platform data processors (MPP)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Управление платформенными обработками (УПО)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

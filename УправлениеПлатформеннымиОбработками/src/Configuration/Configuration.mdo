@@ -11,6 +11,7 @@
   </synonym>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <managedApplicationModule>Extended</managedApplicationModule>
     <defaultRoles>Extended</defaultRoles>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b1c38992-194b-4b5a-98ae-df26f3661ef3"/>
@@ -25,7 +26,7 @@
   <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
-  <defaultRoles>Role.ЧтениеПлатформенныхОбработок</defaultRoles>
+  <defaultRoles>Role.УПО_ЧтениеПлатформенныхОбработок</defaultRoles>
   <vendor>https://github.com/SeiOkami</vendor>
   <version>1.4.1</version>
   <copyright>
@@ -62,27 +63,27 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.УправлениеПлатфомреннымиОбработками</subsystems>
-  <roles>Role.ЧтениеПлатформенныхОбработок</roles>
-  <roles>Role.АдминистраторПлатформенныхОбработок</roles>
-  <commonModules>CommonModule.УправлениеПлатформеннымиОбработками</commonModules>
-  <commonModules>CommonModule.УправлениеПлатформеннымиОбработкамиВызовСервера</commonModules>
-  <commonModules>CommonModule.УправлениеПлатформеннымиОбработкамиКлиент</commonModules>
-  <commonModules>CommonModule.УправлениеПлатформеннымиОбработкамиКлиентСервер</commonModules>
-  <commonCommands>CommonCommand.ОбновитьВерсииПлатформенныхОбработок</commonCommands>
-  <commonCommands>CommonCommand.УдалитьВсеДанныеПлатформенныхОбработок</commonCommands>
-  <commonCommands>CommonCommand.ЗапуститьВерсиюПлатформеннойОбработки</commonCommands>
-  <commonCommands>CommonCommand.ПодключитьВерсиюПлатформеннойОбработки</commonCommands>
-  <commonCommands>CommonCommand.ВыгрузитьВерсиюПлатформеннойОбработки</commonCommands>
-  <commonCommands>CommonCommand.ЗагрузитьВерсиюПлатформеннойОбработки</commonCommands>
-  <commonCommands>CommonCommand.УстановитьОбщейПодменяемойВерсиейОбработки</commonCommands>
-  <commonCommands>CommonCommand.УстановитьПодменяемойВерсиейДляТекущегоПользователя</commonCommands>
-  <commandGroups>CommandGroup.ПодключитьВерсиюПлатформеннойОбработки</commandGroups>
-  <commandGroups>CommandGroup.ЗагрузитьВыгрузитьВерсиюПлатформеннойОбработки</commandGroups>
-  <commandGroups>CommandGroup.ОбновлениеДанныхПодсистемыПлатформенныхОбработок</commandGroups>
-  <catalogs>Catalog.ПлатформенныеОбработки</catalogs>
-  <catalogs>Catalog.ВерсииПлатформенныхОбработок</catalogs>
-  <dataProcessors>DataProcessor.ВыгрузкаПлатформенныхОбработок</dataProcessors>
-  <informationRegisters>InformationRegister.ПодменаПлатформенныхОбработок</informationRegisters>
-  <informationRegisters>InformationRegister.ОбновленныеВерсииПриложения</informationRegisters>
+  <subsystems>Subsystem.УПО_УправлениеПлатформеннымиОбработками</subsystems>
+  <roles>Role.УПО_ЧтениеПлатформенныхОбработок</roles>
+  <roles>Role.УПО_АдминистраторПлатформенныхОбработок</roles>
+  <commonModules>CommonModule.УПО_ВызовСервера</commonModules>
+  <commonModules>CommonModule.УПО_Клиент</commonModules>
+  <commonModules>CommonModule.УПО_КлиентСервер</commonModules>
+  <commonModules>CommonModule.УПО_Сервер</commonModules>
+  <commonCommands>CommonCommand.УПО_ВыгрузитьВерсиюПлатформеннойОбработки</commonCommands>
+  <commonCommands>CommonCommand.УПО_ЗагрузитьВерсиюПлатформеннойОбработки</commonCommands>
+  <commonCommands>CommonCommand.УПО_ЗапуститьВерсиюПлатформеннойОбработки</commonCommands>
+  <commonCommands>CommonCommand.УПО_ОбновитьВерсииПлатформенныхОбработок</commonCommands>
+  <commonCommands>CommonCommand.УПО_ПодключитьВерсиюПлатформеннойОбработки</commonCommands>
+  <commonCommands>CommonCommand.УПО_УдалитьВсеДанныеПлатформенныхОбработок</commonCommands>
+  <commonCommands>CommonCommand.УПО_УстановитьОбщейПодменяемойВерсиейОбработки</commonCommands>
+  <commonCommands>CommonCommand.УПО_УстановитьПодменяемойВерсиейДляТекущегоПользователя</commonCommands>
+  <commandGroups>CommandGroup.УПО_ПодключитьВерсиюПлатформеннойОбработки</commandGroups>
+  <commandGroups>CommandGroup.УПО_ЗагрузитьВыгрузитьВерсиюПлатформеннойОбработки</commandGroups>
+  <commandGroups>CommandGroup.УПО_ОбновлениеДанныхПодсистемыПлатформенныхОбработок</commandGroups>
+  <catalogs>Catalog.УПО_ВерсииПлатформенныхОбработок</catalogs>
+  <catalogs>Catalog.УПО_ПлатформенныеОбработки</catalogs>
+  <dataProcessors>DataProcessor.УПО_ВыгрузкаПлатформенныхОбработок</dataProcessors>
+  <informationRegisters>InformationRegister.УПО_ОбновленныеВерсииПриложения</informationRegisters>
+  <informationRegisters>InformationRegister.УПО_ПодменаПлатформенныхОбработок</informationRegisters>
 </mdclass:Configuration>

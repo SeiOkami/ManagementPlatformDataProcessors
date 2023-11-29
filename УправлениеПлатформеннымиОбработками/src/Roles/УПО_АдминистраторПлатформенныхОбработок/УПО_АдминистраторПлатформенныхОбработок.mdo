@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8c5868f-3133-40b4-82f2-5ad24f58d97b">
+  <name>УПО_АдминистраторПлатформенныхОбработок</name>
+  <synonym>
+    <key>en</key>
+    <value>Administrator platform data processors (MPP)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Администратор платформенных обработок (УПО)</value>
+  </synonym>
+</mdclass:Role>

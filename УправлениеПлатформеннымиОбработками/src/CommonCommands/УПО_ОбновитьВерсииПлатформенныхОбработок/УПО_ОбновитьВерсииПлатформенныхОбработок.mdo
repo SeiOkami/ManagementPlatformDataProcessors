@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ce00ca1-549d-4daa-8774-19c0d078e69d">
+  <name>УПО_ОбновитьВерсииПлатформенныхОбработок</name>
+  <synonym>
+    <key>en</key>
+    <value>Update versions platform data processors</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить версии платформенных обработок</value>
+  </synonym>
+  <group>CommandGroup.УПО_ОбновлениеДанныхПодсистемыПлатформенныхОбработок</group>
+  <commandParameterType/>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Refresh</picture>
+  </picture>
+</mdclass:CommonCommand>
