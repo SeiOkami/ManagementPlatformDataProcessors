@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a35cc0fd-c6c8-45b7-a1d6-19a7c32341bd">
+  <name>УПО_ВыгрузитьВерсиюПлатформеннойОбработки</name>
+  <synonym>
+    <key>en</key>
+    <value>Upload to file</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузить в файл</value>
+  </synonym>
+  <group>CommandGroup.УПО_ЗагрузитьВыгрузитьВерсиюПлатформеннойОбработки</group>
+  <commandParameterType>
+    <types>CatalogRef.УПО_ВерсииПлатформенныхОбработок</types>
+  </commandParameterType>
+  <representation>PictureAndText</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Выгрузить версию платформенной обработки в файл</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Write</picture>
+  </picture>
+</mdclass:CommonCommand>

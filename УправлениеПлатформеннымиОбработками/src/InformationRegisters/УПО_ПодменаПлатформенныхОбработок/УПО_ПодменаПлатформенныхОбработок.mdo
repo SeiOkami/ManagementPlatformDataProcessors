@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bcaf048-862e-427a-9be4-6e24b2dd14cc">
+  <producedTypes>
+    <selectionType typeId="31b2de6b-2115-45ec-9b76-f5df08592141" valueTypeId="5fe1b153-6c1e-460a-a9d8-b0618b98de8e"/>
+    <listType typeId="945ee291-87b1-41d6-8850-cad968f6f0c2" valueTypeId="941f54a9-45d2-48f5-bfca-46c2f8d8e571"/>
+    <managerType typeId="022cd81e-dff4-4623-a3e9-2b4fbdf72af1" valueTypeId="5c7f3252-29f0-4644-a21b-a3fc2fab9797"/>
+    <recordSetType typeId="1ed7fc85-a0c1-42ff-87a2-eaa83ef7d30a" valueTypeId="7d174b6a-307c-48e9-9666-96ceda77ed5e"/>
+    <recordKeyType typeId="656fdf8b-4fd1-4ac2-808c-46f418399dbc" valueTypeId="f0351bc8-6e35-4ecd-aa6a-69630652ae5f"/>
+    <recordType typeId="72095d51-3d0a-4147-b737-dfefaa5f6a7d" valueTypeId="d32e1891-5059-445c-bd62-1cdd9a9ebdab"/>
+    <recordManagerType typeId="fe2fea29-7f4b-4a41-94dc-a1dc760568c9" valueTypeId="e0d2f25a-34e0-413e-8136-09618f7eb5c7"/>
+  </producedTypes>
+  <name>УПО_ПодменаПлатформенныхОбработок</name>
+  <synonym>
+    <key>en</key>
+    <value>Substitution of platform data processors (MPP)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Подмена платформенных обработок (УПО)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УПО_ПодменаПлатформенныхОбработок.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.УПО_ПодменаПлатформенныхОбработок.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>en</key>
+    <value>Substitution of platform data processor</value>
+  </recordPresentation>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Подмена обработки платформы</value>
+  </recordPresentation>
+  <resources uuid="baf007fd-0217-417a-abdf-efd030d407c1">
+    <name>Использование</name>
+    <synonym>
+      <key>en</key>
+      <value>Use</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Использование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="029262e1-a86f-4e3a-8899-820969235be4">
+    <name>ВерсияОбработки</name>
+    <synonym>
+      <key>en</key>
+      <value>Version</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Версия обработки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УПО_ВерсииПлатформенныхОбработок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="e1b8e364-21b5-4944-8295-ddf8cbe012d0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>en</key>
+      <value>Commentary</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="625ff2df-be9f-4b8a-be11-2deaf1cd2f11">
+    <name>Владелец</name>
+    <synonym>
+      <key>en</key>
+      <value>User ID</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пользователя ИБ</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4601500a-b529-4856-a3b4-33bd5590f3de">
+    <name>Обработка</name>
+    <synonym>
+      <key>en</key>
+      <value>Data processor</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УПО_ПлатформенныеОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c240b02f-7b5f-4752-a14b-f3cc7c2c25d0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7fe92786-1e8c-45af-80ad-a5693d397dcc">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a30349b6-b0ac-46fa-8227-1a468312c9fe">
+    <name>ФормаВыбораПользователяИБ</name>
+    <synonym>
+      <key>en</key>
+      <value>User selection form</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора пользователя ИБ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
