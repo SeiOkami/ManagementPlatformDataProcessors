@@ -1,3 +1,5 @@
+[![OpenYellow](https://img.shields.io/endpoint?url=https://openyellow.org/data/badges/2/582961376.json)](https://openyellow.org/grid?data=top&repo=582961376)
+
 
 # Управление платформенными обработками
 
